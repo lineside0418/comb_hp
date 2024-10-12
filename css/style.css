@@ -5,28 +5,41 @@ body{
 }
 header{
     background-color: white;
-    box-shadow: 0 2px 2px black;
+    box-shadow: 0 2px 2px rgb(121, 121, 121);
     height: 80px;
     width: 100%;
     position: fixed;
+    display: flex;
+    font-family: "oswald";
 }
 main{
     background-color: rgb(237, 237, 237);
     height: 1000px;
 }
 h1{
-    font-family: "oswald";
     margin-top: 0;
-    position: absolute;
-    left: 20px;
-    top: 12px;
+    margin-right: 400px;
+    margin-left: 40px;
+    display: flex;
+    height: 100%;
+    align-items: center;
 }
 #menu{
     display: flex;
     list-style: none;
-    position: absolute;
-    right: 30px;
-    top:20px;
-    column-gap: 40px;
     font-weight:bold ;
+    height: 100%;
+    margin: 0;
+}
+#menu li{
+    transition:all 0.5s 0s ease;
+    width: 150px;
+    justify-content: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#menu li:hover{
+    color: white;
+    background-color: rgb(76, 76, 76);
 }
