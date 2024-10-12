@@ -4,8 +4,29 @@ body{
     margin: 0;
 }
 header{
-    background-color: aqua;
+    background-color: white;
+    box-shadow: 0 2px 2px black;
+    height: 80px;
+    width: 100%;
+    position: fixed;
 }
 main{
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(237, 237, 237);
+    height: 1000px;
+}
+h1{
+    font-family: "oswald";
+    margin-top: 0;
+    position: absolute;
+    left: 20px;
+    top: 12px;
+}
+#menu{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 30px;
+    top:20px;
+    column-gap: 40px;
+    font-weight:bold ;
 }
