@@ -18,15 +18,21 @@ main{
     background-color: rgb(237, 237, 237);
     height: 1000px;
     margin: 0;
-    padding: 80px;
+    padding-top: 78px;
 }
 h1{
     margin: 0;
-    margin-right: 27%;
+    margin-right: 0.5%;
     margin-left: 3%;
     display: flex;
     height: 100%;
     align-items: center;
+}
+#comb_logo{
+    width: 33px;
+    height: 33px;
+    margin:0;
+    margin-right:25% ;
 }
 #menu{
     display: flex;
@@ -91,4 +97,28 @@ h1{
     background-color: white;
     box-shadow: -2px 2px 2px rgb(121, 121, 121);;
     display:none;
+}
+main section{
+    height: 700px;
+    background-image:url(../images/background_image.jpg);
+    background-size:cover;
+}
+main section div{
+    color: white;
+    font-size: 7em;
+    font-style: italic;
+    position: absolute;
+    font-family: "Anton";
+}
+#text_1{
+    top:15%;
+    left:5%;
+}
+#text_2{
+    top: 40%;
+    left:45%;
+}
+#text_3{
+    bottom:15%;
+    right:5%;
 }
