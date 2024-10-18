@@ -4,7 +4,7 @@ body{
     margin: 0;
 }
 header{
-    background-color: white;
+    background: rgba(255,255,255,0.7);
     box-shadow: 0 2px 2px rgb(121, 121, 121);
     height: 80px;
     width: 100%;
@@ -13,26 +13,31 @@ header{
     align-items: center;
     font-family: "oswald";
     z-index: 1;
+    backdrop-filter: blur(7px);
 }
 main{
     background-color: rgb(237, 237, 237);
-    height: 1000px;
+    height: 2000px;
     margin: 0;
-    padding-top: 78px;
 }
 h1{
     margin: 0;
-    margin-right: 0.5%;
     margin-left: 3%;
     display: flex;
     height: 100%;
     align-items: center;
+    line-clamp: 1;
 }
 #comb_logo{
     width: 33px;
     height: 33px;
     margin:0;
-    margin-right:25% ;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: all 0.5s 0s ease;
+}
+#comb_logo:hover{
+    transform: scale(1.2);
 }
 #menu{
     display: flex;
@@ -40,7 +45,8 @@ h1{
     font-weight:bold ;
     height: 100%;
     margin: 0;
-    margin-right: 3%;
+    padding: 0;
+    margin-left: auto;
 }
 #menu li{
     transition:all 0.5s 0s ease;
@@ -54,17 +60,19 @@ h1{
 #menu li:hover{
     color: white;
     background-color: rgb(76, 76, 76);
+    font-size: 120%;
 }
 #hamburger_menu{
     transition:all 0.5s 0s ease;
-    background-color: white;
-    width: 28px;
+    width: 29px;
     border-radius:3px;
     padding: 7px;
     cursor: pointer;
+    margin: 0 2%;
 }
 #hamburger_menu:hover{
-    background-color: rgb(170, 170, 170);
+    background-color:white;
+    box-shadow: 0 0 7px black;
 }
 #hamburger_menu div{
     background-color: black;
@@ -92,14 +100,16 @@ h1{
     height: 400px;
     position: fixed;
     z-index: 2;
-    top: 80px;
+    top: 79px;
     right: 0;
     background-color: white;
     box-shadow: -2px 2px 2px rgb(121, 121, 121);;
     display:none;
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(7px);
 }
 main section{
-    height: 700px;
+    height: 800px;
     background-image:url(../images/background_image.jpg);
     background-size:cover;
 }
@@ -109,6 +119,7 @@ main section div{
     font-style: italic;
     position: absolute;
     font-family: "Anton";
+    text-shadow: 3px 3px 1px rgb(203, 203, 203);
 }
 #text_1{
     top:15%;
@@ -116,7 +127,7 @@ main section div{
 }
 #text_2{
     top: 40%;
-    left:45%;
+    left:48%;
 }
 #text_3{
     bottom:15%;
