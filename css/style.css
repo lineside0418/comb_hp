@@ -1,4 +1,8 @@
 @charset "utf-8";
+@font-face {
+    font-family: oswald;
+    src: url(/fonts/Oswald-VariableFont_wght.ttf);
+}
 
 body{
     margin: 0;
@@ -12,7 +16,6 @@ header{
     display: flex;
     align-items: center;
     font-family: "oswald";
-    src: url("../fonts/Oswald-VariableFont_wght.ttf") format("truetype");
     z-index: 1;
     backdrop-filter: blur(7px);
     white-space:nowrap;
