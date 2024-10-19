@@ -121,22 +121,11 @@ main section{
 }
 main section div{
     color: white;
+    top:50%;
     font-size: 7em;
     font-style: italic;
     position: absolute;
     font-family: "Anton";
     text-shadow: 3px 3px 1px rgb(203, 203, 203);
     white-space: nowrap;
-}
-#text_1{
-    top:15%;
-    left:5%;
-}
-#text_2{
-    top: 40%;
-    left:48%;
-}
-#text_3{
-    bottom:15%;
-    right:5%;
 }
