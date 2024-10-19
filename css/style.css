@@ -120,6 +120,7 @@ main section div{
     position: absolute;
     font-family: "Anton";
     text-shadow: 3px 3px 1px rgb(203, 203, 203);
+    white-space: nowrap;
 }
 #text_1{
     top:15%;
