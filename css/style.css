@@ -14,6 +14,7 @@ header{
     font-family: "oswald";
     z-index: 1;
     backdrop-filter: blur(7px);
+    white-space:nowrap;
 }
 main{
     background-color: rgb(237, 237, 237);
