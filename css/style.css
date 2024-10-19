@@ -121,10 +121,10 @@ main section{
 }
 main section div{
     color: white;
-    top:50%;
     font-size: 7em;
     font-style: italic;
     position: absolute;
+    top:50%;
     font-family: "Anton";
     text-shadow: 3px 3px 1px rgb(203, 203, 203);
     white-space: nowrap;
