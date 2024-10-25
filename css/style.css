@@ -33,6 +33,7 @@ h1{
     height: 100%;
     align-items: center;
     line-clamp: 1;
+    text-shadow: 3px 3px 3px gray;
 }
 #comb_logo{
     width: 33px;
@@ -78,7 +79,7 @@ h1{
 }
 #hamburger_menu:hover{
     background-color:white;
-    box-shadow: 0 0 7px black;
+    box-shadow: 0 0 5px black;
 }
 #hamburger_menu div{
     background-color: black;
@@ -115,7 +116,7 @@ h1{
     backdrop-filter: blur(7px);
 }
 main section{
-    height: 800px;
+    height: 700px;
     background-image:url(../images/background_image.jpg);
     background-size:cover;
 }
@@ -123,9 +124,23 @@ main section div{
     color: white;
     font-size: 7em;
     font-style: italic;
-    position: absolute;
-    top:50%;
+    display: flex;
+    height: 100%;
+    padding-left: 50px;
+    align-items: center;
     font-family: "Anton";
     text-shadow: 3px 3px 1px rgb(203, 203, 203);
     white-space: nowrap;
+    animation: appear 1.2s ease;
+}
+
+@keyframes appear{
+    0%{
+        opacity: 0;
+        transform: translate(0,50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+    }
 }
