@@ -1,4 +1,9 @@
 @charset "utf-8";
+@font-face {
+    font-family: "oswald";
+    src:url("../fonts/oswald-variablefont-wght.woff") format("woff"), 
+    url("../fonts/Oswald-VariableFont_wght.ttf") format("truetype");
+}
 
 body{
     margin: 0;
@@ -14,6 +19,7 @@ header{
     font-family: "oswald";
     z-index: 1;
     backdrop-filter: blur(7px);
+    white-space:nowrap;
 }
 main{
     background-color: rgb(237, 237, 237);
@@ -118,18 +124,8 @@ main section div{
     font-size: 7em;
     font-style: italic;
     position: absolute;
+    top:50%;
     font-family: "Anton";
     text-shadow: 3px 3px 1px rgb(203, 203, 203);
-}
-#text_1{
-    top:15%;
-    left:5%;
-}
-#text_2{
-    top: 40%;
-    left:48%;
-}
-#text_3{
-    bottom:15%;
-    right:5%;
+    white-space: nowrap;
 }
