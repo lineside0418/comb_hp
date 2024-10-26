@@ -1,8 +1,13 @@
 @charset "utf-8";
 @font-face {
     font-family: "oswald";
-    src:url("../fonts/oswald-variablefont-wght.woff") format("woff"), 
+    src:url("../fonts/oswald-variablefont-wght.woff") format("woff"),
     url("../fonts/Oswald-VariableFont_wght.ttf") format("truetype");
+}
+@font-face{
+    font-family:"Anton";
+    src:url("../fonts/Anton-Regular.ttf") format("truetype"),
+    url("..fonts/fonts/anton-regular.woff") format("woff");
 }
 
 body{
